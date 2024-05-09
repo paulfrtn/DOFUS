@@ -1,0 +1,3 @@
+C:/Users/paula/CLionProjects/DOFUS/cmake-build-debug/CMakeFiles/DOFUS.dir
+C:/Users/paula/CLionProjects/DOFUS/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/paula/CLionProjects/DOFUS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
