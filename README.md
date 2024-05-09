@@ -14,9 +14,9 @@ Si vous utilisez CLion, vous pouvez suivre les étapes suivantes:
 1. Allez sur le site : https://fercoq.bitbucket.io/allegro/#Installation
    2. Suivez les étapes d'installations de allegro 4.4, cependant lors de l'extraction du fichier zip, extrayez le dans le dossier bin/mingw de votre CLion, de la même manière que avec code blocks.
    3. Ouvrez CLion, allez dans File -> Settings -> Build,Execution,Deployment -> Toolchains
-      ![img.png](img.png)
-   ![img_1.png](img_1.png)
+      ![img.png](ReadMeImages/img.png)
+   ![img_1.png](ReadMeImages/img_1.png)
    4. Dans toolset, choisissez MinGW que vous avez installé avec allegro dans le dossier bin/mingw de CLion.
-![img_2.png](img_2.png)
+![img_2.png](ReadMeImages/img_2.png)
       (Dans cet exemple le chemin est C:\MinGW)
    5. Cliquez sur Apply puis OK
