@@ -55,6 +55,12 @@ build CMakeFiles/DOFUS.dir/main.c.obj: C_COMPILER__DOFUS_unscanned_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\DOFUS.dir
   OBJECT_FILE_DIR = CMakeFiles\DOFUS.dir
 
+build CMakeFiles/DOFUS.dir/fonctions.c.obj: C_COMPILER__DOFUS_unscanned_Debug C$:/Users/paula/CLionProjects/DOFUS/fonctions.c || cmake_object_order_depends_target_DOFUS
+  DEP_FILE = CMakeFiles\DOFUS.dir\fonctions.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DOFUS.dir
+  OBJECT_FILE_DIR = CMakeFiles\DOFUS.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DOFUS
@@ -63,7 +69,7 @@ build CMakeFiles/DOFUS.dir/main.c.obj: C_COMPILER__DOFUS_unscanned_Debug C$:/Use
 #############################################
 # Link the executable DOFUS.exe
 
-build DOFUS.exe: C_EXECUTABLE_LINKER__DOFUS_Debug CMakeFiles/DOFUS.dir/main.c.obj
+build DOFUS.exe: C_EXECUTABLE_LINKER__DOFUS_Debug CMakeFiles/DOFUS.dir/main.c.obj CMakeFiles/DOFUS.dir/fonctions.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lmingw32  -lalleg44  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DOFUS.dir
